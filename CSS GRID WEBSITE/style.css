@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: red;
+    height: 100vh;
+    display: grid;
+    grid-template-rows:55px 220px 200px 55px;
+    grid-template-columns:2fr 1fr;
+    row-gap: 5px;
+    column-gap: 5px;
+             
+}
+.item{
+    background-color: aqua;
+    
+    border: 3px solid black;
+}
+.item1{
+    grid-column: 1/ span 2;
+    font-size: 19px;
+line-height: 0.8;
+letter-spacing: 0.152em;
+font-weight: 500;
+}
+.item2{
+     grid-row: 2 /span 2;
+     margin: 2px;
+     
+
+}
+.item5{
+    grid-column: 1/ span 2;
+}
+
+.item1 ul{
+    list-style: none;
+    
+    
+}
+.item1 ul li{
+    display: inline-block;
+    margin: 12px;
+    padding:4px;
+}
+.navimg{
+    width: 53px;
+    display: inline-block;
+    top: 5px;
+    position: absolute;
+    left: 15px;
+    border: 2px solid black;
+    border-radius: 70%;
+}
+.item2 h2{
+text-align: center;
+}
+.item2 h3{
+    display: inline-block;
+border: 2px solid black;
+margin: 2px;
+}
+.item2 h3 p{
+    
+border: 2px solid black;
+}
+.item3{
+    display: inline-block;
+}
+.item3 h3{
+    border: 2px solid black;
+    text-align: center;
+}
+.item4 h3{
+    border: 2px solid black;
+    text-align: center;
+}
+.formI{
+    padding: 2px;
+    background-color:rgb(42, 230, 243);}
+form{
+    margin: 5px;
+}
+.ad1{
+    width: 125px;
+    margin: 7px;
+}
+.ad2{
+    width: 110px;
+    margin: 5px;
+    position: relative;
+    right: -72px;
+    bottom: 2px;
+
+
+}
+.footer{
+    margin: 16px;
+    font-size: 17px;
+    line-height: 1.2;
+    letter-spacing: 0.069em;
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
